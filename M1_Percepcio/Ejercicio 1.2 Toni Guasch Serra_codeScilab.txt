@@ -1,0 +1,19 @@
+-->x=linspace(100,1000,100);
+
+-->y=((atan(20 ./x)*(180/%pi))/0.25);
+
+-->scf(10);
+ 
+-->clf(10);
+ 
+-->plot (x,y,'o-b')
+ 
+-->ylabel("HITS","fontsize",4,"color","red") 
+ 
+-->xlabel("DISTANCE","fontsize",4,"color","blue") 
+ 
+-->title("Lidar Laser Hits Calculation","color","Red","fontsize",6);
+ 
+-->set(gca(),"grid",[1 1]);
+
+-->legend("(atan(20 ./x)*(180/%pi))/0.25)");

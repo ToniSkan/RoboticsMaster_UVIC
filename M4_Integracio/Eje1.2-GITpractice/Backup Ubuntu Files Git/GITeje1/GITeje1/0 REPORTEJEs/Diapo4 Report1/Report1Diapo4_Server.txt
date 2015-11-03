@@ -1,0 +1,11 @@
+commit b1a63f18df55b53096f8c84153ebd1a299c696dc
+Author: Toni <antoni@uvic.cat>
+Date:   Sun Oct 18 05:00:33 2015 -0700
+
+    Dev2 Modifica Texto1 y crea Texto2
+
+commit fde4115531b2f0d16a2bf7ef84528168d7f2f902
+Author: Toni <antoni@uvic.cat>
+Date:   Sun Oct 18 04:55:49 2015 -0700
+
+    creacion archivo texto1

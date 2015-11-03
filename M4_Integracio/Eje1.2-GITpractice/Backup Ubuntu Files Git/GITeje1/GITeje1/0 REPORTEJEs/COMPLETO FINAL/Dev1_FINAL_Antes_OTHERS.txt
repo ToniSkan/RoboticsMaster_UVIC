@@ -1,0 +1,67 @@
+commit 5323403a0434cd5ac2824ce99339ea70a71ad071
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:50:26 2015 -0700
+
+    commit por Dev2 de TExto3.txt despues de crear tag v2.0
+
+commit ebf133cf8688f451838727fe411886618d07a0fc
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:45:50 2015 -0700
+
+    modifica Texto3.txt por Dev2 despues de crear tag v1.0
+
+commit b76682f775c34fb2ba8b88bb3e9a4a2d2efdc04c
+Merge: 92ffc20 c92e777
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:33:55 2015 -0700
+
+    incorpora cambios de Branch a Master
+
+commit 92ffc20013dbb81f41874eb0a9af659e15393253
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:31:01 2015 -0700
+
+    creacióna TExto3.txt por Dev1 en Rama principal MASTER
+
+commit c92e777b3fb91094e2414e34fcae9ef57e16341e
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:26:47 2015 -0700
+
+    commit de modificación por DEV 2 en branch: carrot
+
+commit 3f220295c8650d60f4e63d9dce7ef37eb52ec3ad
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:25:31 2015 -0700
+
+    commit de modificación por DEV 2 en branch: carrot
+
+commit 8c8bf7a1bc4ef13b29c4781039d98129efc9d9c8
+Merge: f4b4e61 c75cb4e
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 12:16:57 2015 -0700
+
+    CONFLICTO RESUELTO?¿?¿
+
+commit c75cb4e3b8199e37420aab604ebbb3eb8861d8c6
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 11:41:23 2015 -0700
+
+    Modifica archivo texto2 por Dev2 para crear conflicto
+
+commit f4b4e61b2b54c91083a4a2ae99bf163866ed24d8
+Author: Toni <antoni@uvic.cat>
+Date:   Wed Oct 21 11:38:56 2015 -0700
+
+    Modificac Texto2 por Dev1 para crear conflicto
+
+commit b1a63f18df55b53096f8c84153ebd1a299c696dc
+Author: Toni <antoni@uvic.cat>
+Date:   Sun Oct 18 05:00:33 2015 -0700
+
+    Dev2 Modifica Texto1 y crea Texto2
+
+commit fde4115531b2f0d16a2bf7ef84528168d7f2f902
+Author: Toni <antoni@uvic.cat>
+Date:   Sun Oct 18 04:55:49 2015 -0700
+
+    creacion archivo texto1
