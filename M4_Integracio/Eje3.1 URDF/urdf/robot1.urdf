@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<robot name="robot1">
+  <link name="world"/>
+
+  <joint name="Joint1_robot_fix" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="world"/>
+    <child link="Link1_Mainboard"/>
+  </joint>
+
+  <link name="Link1_Mainboard" >
+    <visual>
+      <geometry>
+         <box size="0.100 .100 0.045 "/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="Violet">
+        <color rgba="0.5 0.5 1 0.5"/>
+      </material>
+    </visual>	  
+  </link>
+
+<joint name="Joint2_Mainboard_Support" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="Link1_Mainboard"/>
+    <child link="Link2_Support"/>
+ </joint>
+
+  <link name="Link2_Support" >
+    <visual>
+      <geometry>
+         <box size="0.055 0.02 0.02"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.02 0.04 0.0325"/>
+      <material name="gray">
+        <color rgba="0.25 0.25 0.25 1"/>
+      </material>
+    </visual>		  
+  </link>
+
+
+ <joint name="Joint3_SupportServo" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="Link2_Support"/>
+    <child link="Link3_Servo"/>
+ </joint>
+
+  <link name="Link3_Servo" >
+    <visual>
+      <geometry>
+         <box size="0.02 0.020 0.045"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.0175 0.04 0.045"/>
+      <material name="gray">
+        <color rgba="0.25 0.25 0.25 1"/>
+      </material>
+    </visual>	
+  </link>
+
+
+ <joint name="Joint4_Webcam" type="revolute">
+    <origin rpy="0 0 0" xyz="0.01 0 0.06"/>
+    <parent link="Link3_Servo"/>
+    <child link="Link4_Webcam"/>
+    <limit effort="5.0" lower="-0.2" upper="0.35" velocity="0.2"/>
+    <axis xyz="1 0 0" />
+  </joint>
+
+  <link name="Link4_Webcam" >
+    <visual>
+      <geometry>
+         <sphere radius="0.02"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.005 0.068 0"/>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>	
+  </link>
+
+
+<joint name="Joint5_Lense" type="fixed">
+    <origin rpy="0 0 0" xyz="0.005 0.068 0"/>
+    <parent link="Link4_Webcam"/>
+    <child link="Link5_Lense"/>
+</joint>
+
+  <link name="Link5_Lense" >
+    <visual>
+      <geometry>
+         <cylinder length="0.003" radius="0.012"/>
+      </geometry>
+      <origin rpy="1.57 1.57 0" xyz="0 0.02 0"/>
+      <material name="gray">
+      <color rgba="0.25 0.25 0.25 1"/>
+      </material>
+    </visual>	
+  </link>
+
+
+ </robot>
